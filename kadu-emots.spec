@@ -27,7 +27,7 @@ Kadu - dodatkowe emotikonki.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/kadu/themes/emoticons/gadu-gadu/{3,4,5,6,7,8,9}
-for i in `seq 3 9` 
+for i in `seq 3 9`
 do
   install $i/{*.gif,emots.txt} $RPM_BUILD_ROOT%{_datadir}/kadu/themes/emoticons/gadu-gadu/$i
 done
