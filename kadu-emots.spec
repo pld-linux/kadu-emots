@@ -6,11 +6,11 @@ Summary:	Kadu - additional emots
 Summary(pl):	Kadu - dodatkowe emotikonki
 Name:		kadu-emots
 Version:	01
-Release:	0.1
+Release:	1
 License:	Artistic
 Group:		Applications/Communications
-Source0:	emots.tar.gz
-# Source0-md5:	cc96e9b47e650647ed7f425121861f57
+Source0:	http://www.kadu.net/download/additions/%{name}-zestaw288.tar.bz2
+# Source0-md5:	98a378047ea252f7277e978f06f9a6bb
 Requires:	kadu
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -29,7 +29,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/kadu/themes/emoticons/gadu-gadu/{3,4,5,6,7,8,9}
 for i in `seq 3 9`
 do
-  install $i/{*.gif,emots.txt} $RPM_BUILD_ROOT%{_datadir}/kadu/themes/emoticons/gadu-gadu/$i
+  install zestaw_288/$i/{*.gif,emots.txt} $RPM_BUILD_ROOT%{_datadir}/kadu/themes/emoticons/gadu-gadu/$i
 done
 
 %clean
