@@ -3,7 +3,7 @@
 # - it shouldn't be only package for kadu
 
 Summary:	Kadu - additional emots
-Summary(pl.UTF-8):   Kadu - dodatkowe emotikonki
+Summary(pl.UTF-8):	Kadu - dodatkowe emotikonki
 Name:		kadu-emots
 Version:	01
 Release:	1
