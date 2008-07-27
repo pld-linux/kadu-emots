@@ -6,7 +6,7 @@ Summary:	Kadu - additional emots
 Summary(pl.UTF-8):	Kadu - dodatkowe emotikonki
 Name:		kadu-emots
 Version:	01
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Applications/Communications
 Source0:	http://www.kadu.net/download/additions/%{name}-zestaw288.tar.bz2
